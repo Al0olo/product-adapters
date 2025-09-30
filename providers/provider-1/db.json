@@ -7,16 +7,16 @@
       "price": 2499.99,
       "currency": "USD",
       "availability": true,
-      "lastUpdated": "2024-01-15T10:30:00Z"
+      "lastUpdated": "2025-09-30T10:30:00Z"
     },
     {
-      "id": "prod-1-002", 
+      "id": "prod-1-002",
       "name": "Wireless Gaming Mouse",
       "description": "Ergonomic wireless mouse for gaming",
       "price": 89.99,
       "currency": "USD",
       "availability": true,
-      "lastUpdated": "2024-01-15T10:30:00Z"
+      "lastUpdated": "2025-09-30T10:30:00Z"
     },
     {
       "id": "prod-1-003",
@@ -25,7 +25,430 @@
       "price": 159.99,
       "currency": "USD",
       "availability": false,
-      "lastUpdated": "2024-01-15T10:30:00Z"
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-004",
+      "name": "4K Gaming Monitor",
+      "description": "27-inch 4K gaming monitor with 144Hz refresh rate",
+      "price": 599.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-005",
+      "name": "Gaming Headset",
+      "description": "7.1 surround sound gaming headset with noise cancellation",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-006",
+      "name": "Gaming Chair Pro",
+      "description": "Ergonomic gaming chair with lumbar support",
+      "price": 399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-007",
+      "name": "RGB Mouse Pad",
+      "description": "Large RGB mouse pad with customizable lighting",
+      "price": 49.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-008",
+      "name": "Webcam HD",
+      "description": "1080p HD webcam with auto-focus",
+      "price": 129.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-009",
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI and Ethernet",
+      "price": 79.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-010",
+      "name": "Wireless Charger",
+      "description": "Fast wireless charging pad for smartphones",
+      "price": 39.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-011",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with deep bass",
+      "price": 89.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-012",
+      "name": "Smart Watch",
+      "description": "Fitness tracking smartwatch with heart rate monitor",
+      "price": 299.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-013",
+      "name": "Tablet Pro",
+      "description": "10-inch tablet with stylus support",
+      "price": 499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-014",
+      "name": "External SSD",
+      "description": "1TB external SSD with USB 3.2 interface",
+      "price": 149.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-015",
+      "name": "Power Bank",
+      "description": "20000mAh power bank with fast charging",
+      "price": 59.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-016",
+      "name": "LED Strip Lights",
+      "description": "RGB LED strip lights with remote control",
+      "price": 24.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-017",
+      "name": "Desk Lamp",
+      "description": "Adjustable LED desk lamp with USB charging port",
+      "price": 69.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-018",
+      "name": "Monitor Stand",
+      "description": "Adjustable monitor stand with cable management",
+      "price": 89.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-019",
+      "name": "Laptop Sleeve",
+      "description": "Protective laptop sleeve with water resistance",
+      "price": 34.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-020",
+      "name": "Phone Case",
+      "description": "Protective phone case with wireless charging support",
+      "price": 19.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-021",
+      "name": "Screen Protector",
+      "description": "Tempered glass screen protector for smartphones",
+      "price": 12.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-022",
+      "name": "Cable Organizer",
+      "description": "Cable management organizer with multiple compartments",
+      "price": 16.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-023",
+      "name": "Bluetooth Earbuds",
+      "description": "True wireless earbuds with noise cancellation",
+      "price": 179.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-024",
+      "name": "Gaming Controller",
+      "description": "Wireless gaming controller with haptic feedback",
+      "price": 79.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-025",
+      "name": "VR Headset",
+      "description": "Virtual reality headset with motion tracking",
+      "price": 399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-026",
+      "name": "Microphone",
+      "description": "USB condenser microphone for streaming",
+      "price": 129.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-027",
+      "name": "Ring Light",
+      "description": "LED ring light for video calls and streaming",
+      "price": 89.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-028",
+      "name": "Green Screen",
+      "description": "Portable green screen backdrop for video production",
+      "price": 49.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-029",
+      "name": "Stream Deck",
+      "description": "Programmable streaming controller with LCD keys",
+      "price": 149.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-030",
+      "name": "Capture Card",
+      "description": "HDMI capture card for streaming and recording",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-031",
+      "name": "Gaming Desk",
+      "description": "Large gaming desk with cable management",
+      "price": 299.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-032",
+      "name": "Ergonomic Wrist Rest",
+      "description": "Memory foam wrist rest for keyboard and mouse",
+      "price": 24.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-033",
+      "name": "Laptop Cooling Pad",
+      "description": "USB-powered laptop cooling pad with adjustable fans",
+      "price": 39.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-034",
+      "name": "HDMI Cable",
+      "description": "High-speed HDMI cable 4K 60Hz 6 feet",
+      "price": 19.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-035",
+      "name": "USB Cable",
+      "description": "USB-C to USB-A cable with fast charging",
+      "price": 14.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-036",
+      "name": "Ethernet Cable",
+      "description": "Cat6 Ethernet cable 25 feet",
+      "price": 12.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-037",
+      "name": "Surge Protector",
+      "description": "8-outlet surge protector with USB ports",
+      "price": 29.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-038",
+      "name": "WiFi Extender",
+      "description": "Wireless WiFi range extender with dual bands",
+      "price": 79.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-039",
+      "name": "Smart Plug",
+      "description": "WiFi smart plug with voice control",
+      "price": 24.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-040",
+      "name": "Security Camera",
+      "description": "Wireless security camera with night vision",
+      "price": 89.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-041",
+      "name": "Smart Doorbell",
+      "description": "Video doorbell with motion detection",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-042",
+      "name": "Smart Thermostat",
+      "description": "WiFi smart thermostat with app control",
+      "price": 249.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-043",
+      "name": "Smart Light Bulb",
+      "description": "RGB smart light bulb with voice control",
+      "price": 19.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-044",
+      "name": "Air Purifier",
+      "description": "HEPA air purifier with smart sensors",
+      "price": 299.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-045",
+      "name": "Robot Vacuum",
+      "description": "Smart robot vacuum with mapping technology",
+      "price": 399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-046",
+      "name": "Smart Lock",
+      "description": "WiFi smart door lock with keypad",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-047",
+      "name": "Smart Speaker",
+      "description": "Voice-controlled smart speaker with assistant",
+      "price": 99.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-048",
+      "name": "Smart Display",
+      "description": "10-inch smart display with video calling",
+      "price": 249.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-049",
+      "name": "Smart Scale",
+      "description": "WiFi smart scale with body composition analysis",
+      "price": 149.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-1-050",
+      "name": "Smart Mirror",
+      "description": "LED smart mirror with Bluetooth connectivity",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
     }
   ]
 }

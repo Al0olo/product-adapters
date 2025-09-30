@@ -7,7 +7,7 @@
       "price": 2599.99,
       "currency": "USD",
       "availability": true,
-      "lastUpdated": "2024-01-15T10:30:00Z"
+      "lastUpdated": "2025-09-30T10:30:00Z"
     },
     {
       "id": "prod-3-002",
@@ -16,7 +16,7 @@
       "price": 95.99,
       "currency": "USD",
       "availability": true,
-      "lastUpdated": "2024-01-15T10:30:00Z"
+      "lastUpdated": "2025-09-30T10:30:00Z"
     },
     {
       "id": "prod-3-003",
@@ -25,7 +25,430 @@
       "price": 199.99,
       "currency": "USD",
       "availability": true,
-      "lastUpdated": "2024-01-15T10:30:00Z"
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-004",
+      "name": "Mechanical Keyboard Elite",
+      "description": "Elite mechanical keyboard with optical switches",
+      "price": 179.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-005",
+      "name": "Ultra-wide Monitor",
+      "description": "34-inch ultra-wide gaming monitor with 144Hz",
+      "price": 799.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-006",
+      "name": "Gaming Chair Supreme",
+      "description": "Supreme gaming chair with built-in speakers",
+      "price": 599.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-007",
+      "name": "RGB Mouse Pad Supreme",
+      "description": "Supreme RGB mouse pad with 20 lighting zones",
+      "price": 79.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-008",
+      "name": "Webcam 8K",
+      "description": "8K webcam with AI auto-framing",
+      "price": 399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-009",
+      "name": "Thunderbolt Hub Elite",
+      "description": "Elite Thunderbolt 4 hub with 10 ports",
+      "price": 499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-010",
+      "name": "Wireless Charger Elite",
+      "description": "Elite wireless charging station with 3 devices",
+      "price": 89.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-011",
+      "name": "Bluetooth Speaker Elite",
+      "description": "Elite Bluetooth speaker with Dolby Atmos",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-012",
+      "name": "Smart Watch Elite",
+      "description": "Elite smartwatch with ECG and blood oxygen",
+      "price": 499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-013",
+      "name": "Tablet Pro Ultra",
+      "description": "13-inch tablet with 5G connectivity",
+      "price": 999.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-014",
+      "name": "External SSD Elite",
+      "description": "4TB external SSD with NVMe technology",
+      "price": 599.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-015",
+      "name": "Power Bank Elite",
+      "description": "50000mAh power bank with solar charging",
+      "price": 149.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-016",
+      "name": "LED Strip Lights Elite",
+      "description": "Elite RGB LED strip with music sync",
+      "price": 59.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-017",
+      "name": "Desk Lamp Elite",
+      "description": "Elite smart desk lamp with circadian rhythm",
+      "price": 149.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-018",
+      "name": "Monitor Stand Elite",
+      "description": "Triple monitor stand with motorized height",
+      "price": 299.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-019",
+      "name": "Laptop Sleeve Elite",
+      "description": "Elite carbon fiber laptop sleeve with GPS",
+      "price": 99.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-020",
+      "name": "Phone Case Elite",
+      "description": "Elite titanium phone case with wireless charging",
+      "price": 49.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-021",
+      "name": "Screen Protector Elite",
+      "description": "Elite sapphire screen protector with anti-glare",
+      "price": 29.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-022",
+      "name": "Cable Organizer Elite",
+      "description": "Elite cable organizer with wireless charging pad",
+      "price": 59.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-023",
+      "name": "Bluetooth Earbuds Elite",
+      "description": "Elite wireless earbuds with spatial audio",
+      "price": 399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-024",
+      "name": "Gaming Controller Elite",
+      "description": "Elite gaming controller with modular design",
+      "price": 249.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-025",
+      "name": "VR Headset Elite",
+      "description": "Elite VR headset with hand tracking",
+      "price": 999.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-026",
+      "name": "Microphone Elite",
+      "description": "Elite studio microphone with AI noise reduction",
+      "price": 399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-027",
+      "name": "Ring Light Elite",
+      "description": "Elite LED ring light with color accuracy",
+      "price": 299.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-028",
+      "name": "Green Screen Elite",
+      "description": "Elite green screen with motorized backdrop",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-029",
+      "name": "Stream Deck Elite",
+      "description": "Elite streaming controller with touch screen",
+      "price": 499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-030",
+      "name": "Capture Card Elite",
+      "description": "Elite 8K capture card with AI upscaling",
+      "price": 799.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-031",
+      "name": "Gaming Desk Elite",
+      "description": "Elite gaming desk with integrated PC",
+      "price": 1999.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-032",
+      "name": "Ergonomic Wrist Rest Elite",
+      "description": "Elite wrist rest with heating and cooling",
+      "price": 79.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-033",
+      "name": "Laptop Cooling Pad Elite",
+      "description": "Elite laptop cooling pad with liquid cooling",
+      "price": 149.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-034",
+      "name": "HDMI Cable Elite",
+      "description": "Elite fiber optic HDMI cable 8K 120Hz 50 feet",
+      "price": 99.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-035",
+      "name": "USB Cable Elite",
+      "description": "Elite USB4 cable with 240W power delivery",
+      "price": 49.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-036",
+      "name": "Ethernet Cable Elite",
+      "description": "Elite Cat8 Ethernet cable 100 feet with gold plating",
+      "price": 59.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-037",
+      "name": "Surge Protector Elite",
+      "description": "Elite surge protector with smart monitoring",
+      "price": 149.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-038",
+      "name": "WiFi Extender Elite",
+      "description": "Elite mesh WiFi system with AI optimization",
+      "price": 399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-039",
+      "name": "Smart Plug Elite",
+      "description": "Elite smart plug with energy monitoring and backup",
+      "price": 79.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-040",
+      "name": "Security Camera Elite",
+      "description": "Elite 8K security camera with AI recognition",
+      "price": 499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-041",
+      "name": "Smart Doorbell Elite",
+      "description": "Elite 8K video doorbell with package detection",
+      "price": 699.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-042",
+      "name": "Smart Thermostat Elite",
+      "description": "Elite smart thermostat with AI learning",
+      "price": 799.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-043",
+      "name": "Smart Light Bulb Elite",
+      "description": "Elite smart light bulb with circadian rhythm",
+      "price": 59.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-044",
+      "name": "Air Purifier Elite",
+      "description": "Elite air purifier with UV sterilization",
+      "price": 999.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-045",
+      "name": "Robot Vacuum Elite",
+      "description": "Elite robot vacuum with self-cleaning base",
+      "price": 1299.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-046",
+      "name": "Smart Lock Elite",
+      "description": "Elite smart door lock with facial recognition",
+      "price": 799.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-047",
+      "name": "Smart Speaker Elite",
+      "description": "Elite smart speaker with 360-degree sound",
+      "price": 499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-048",
+      "name": "Smart Display Elite",
+      "description": "Elite 21-inch smart display with 8K resolution",
+      "price": 999.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-049",
+      "name": "Smart Scale Elite",
+      "description": "Elite smart scale with full body analysis",
+      "price": 499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
+    },
+    {
+      "id": "prod-3-050",
+      "name": "Smart Mirror Elite",
+      "description": "Elite smart mirror with AI health analysis",
+      "price": 1999.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2025-09-30T10:30:00Z"
     }
   ]
 }
