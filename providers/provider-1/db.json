@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "prod-1-001",
+      "name": "Gaming Laptop Pro",
+      "description": "High-performance gaming laptop with RTX 4080",
+      "price": 2499.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "prod-1-002", 
+      "name": "Wireless Gaming Mouse",
+      "description": "Ergonomic wireless mouse for gaming",
+      "price": 89.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "prod-1-003",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with Cherry MX switches",
+      "price": 159.99,
+      "currency": "USD",
+      "availability": false,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "prod-2-001",
+      "name": "Gaming Laptop Pro",
+      "description": "High-performance gaming laptop with RTX 4080",
+      "price": 2399.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "prod-2-002",
+      "name": "Wireless Gaming Mouse",
+      "description": "Ergonomic wireless mouse for gaming",
+      "price": 79.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "prod-2-003",
+      "name": "Gaming Monitor 4K",
+      "description": "27-inch 4K gaming monitor with 144Hz refresh rate",
+      "price": 599.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    }
+  ]
+}

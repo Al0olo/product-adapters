@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "prod-3-001",
+      "name": "Gaming Laptop Pro",
+      "description": "High-performance gaming laptop with RTX 4080",
+      "price": 2599.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "prod-3-002",
+      "name": "Wireless Gaming Mouse",
+      "description": "Ergonomic wireless mouse for gaming",
+      "price": 95.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "prod-3-003",
+      "name": "Gaming Headset",
+      "description": "7.1 surround sound gaming headset with noise cancellation",
+      "price": 199.99,
+      "currency": "USD",
+      "availability": true,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    }
+  ]
+}
