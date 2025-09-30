@@ -1,454 +1,711 @@
 {
-  "products": [
-    {
-      "id": "prod-1-001",
-      "name": "Gaming Laptop Pro",
-      "description": "High-performance gaming laptop with RTX 4080",
-      "price": 2499.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-002",
-      "name": "Wireless Gaming Mouse",
-      "description": "Ergonomic wireless mouse for gaming",
-      "price": 89.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-003",
-      "name": "Mechanical Keyboard",
-      "description": "RGB mechanical keyboard with Cherry MX switches",
-      "price": 159.99,
-      "currency": "USD",
-      "availability": false,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-004",
-      "name": "4K Gaming Monitor",
-      "description": "27-inch 4K gaming monitor with 144Hz refresh rate",
-      "price": 599.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-005",
-      "name": "Gaming Headset",
-      "description": "7.1 surround sound gaming headset with noise cancellation",
-      "price": 199.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-006",
-      "name": "Gaming Chair Pro",
-      "description": "Ergonomic gaming chair with lumbar support",
-      "price": 399.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-007",
-      "name": "RGB Mouse Pad",
-      "description": "Large RGB mouse pad with customizable lighting",
-      "price": 49.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-008",
-      "name": "Webcam HD",
-      "description": "1080p HD webcam with auto-focus",
-      "price": 129.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-009",
-      "name": "USB-C Hub",
-      "description": "Multi-port USB-C hub with HDMI and Ethernet",
-      "price": 79.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-010",
-      "name": "Wireless Charger",
-      "description": "Fast wireless charging pad for smartphones",
-      "price": 39.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-011",
-      "name": "Bluetooth Speaker",
-      "description": "Portable Bluetooth speaker with deep bass",
-      "price": 89.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-012",
-      "name": "Smart Watch",
-      "description": "Fitness tracking smartwatch with heart rate monitor",
-      "price": 299.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-013",
-      "name": "Tablet Pro",
-      "description": "10-inch tablet with stylus support",
-      "price": 499.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-014",
-      "name": "External SSD",
-      "description": "1TB external SSD with USB 3.2 interface",
-      "price": 149.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-015",
-      "name": "Power Bank",
-      "description": "20000mAh power bank with fast charging",
-      "price": 59.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-016",
-      "name": "LED Strip Lights",
-      "description": "RGB LED strip lights with remote control",
-      "price": 24.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-017",
-      "name": "Desk Lamp",
-      "description": "Adjustable LED desk lamp with USB charging port",
-      "price": 69.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-018",
-      "name": "Monitor Stand",
-      "description": "Adjustable monitor stand with cable management",
-      "price": 89.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-019",
-      "name": "Laptop Sleeve",
-      "description": "Protective laptop sleeve with water resistance",
-      "price": 34.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-020",
-      "name": "Phone Case",
-      "description": "Protective phone case with wireless charging support",
-      "price": 19.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-021",
-      "name": "Screen Protector",
-      "description": "Tempered glass screen protector for smartphones",
-      "price": 12.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-022",
-      "name": "Cable Organizer",
-      "description": "Cable management organizer with multiple compartments",
-      "price": 16.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-023",
-      "name": "Bluetooth Earbuds",
-      "description": "True wireless earbuds with noise cancellation",
-      "price": 179.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-024",
-      "name": "Gaming Controller",
-      "description": "Wireless gaming controller with haptic feedback",
-      "price": 79.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-025",
-      "name": "VR Headset",
-      "description": "Virtual reality headset with motion tracking",
-      "price": 399.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-026",
-      "name": "Microphone",
-      "description": "USB condenser microphone for streaming",
-      "price": 129.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-027",
-      "name": "Ring Light",
-      "description": "LED ring light for video calls and streaming",
-      "price": 89.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-028",
-      "name": "Green Screen",
-      "description": "Portable green screen backdrop for video production",
-      "price": 49.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-029",
-      "name": "Stream Deck",
-      "description": "Programmable streaming controller with LCD keys",
-      "price": 149.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-030",
-      "name": "Capture Card",
-      "description": "HDMI capture card for streaming and recording",
-      "price": 199.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-031",
-      "name": "Gaming Desk",
-      "description": "Large gaming desk with cable management",
-      "price": 299.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-032",
-      "name": "Ergonomic Wrist Rest",
-      "description": "Memory foam wrist rest for keyboard and mouse",
-      "price": 24.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-033",
-      "name": "Laptop Cooling Pad",
-      "description": "USB-powered laptop cooling pad with adjustable fans",
-      "price": 39.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-034",
-      "name": "HDMI Cable",
-      "description": "High-speed HDMI cable 4K 60Hz 6 feet",
-      "price": 19.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-035",
-      "name": "USB Cable",
-      "description": "USB-C to USB-A cable with fast charging",
-      "price": 14.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-036",
-      "name": "Ethernet Cable",
-      "description": "Cat6 Ethernet cable 25 feet",
-      "price": 12.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-037",
-      "name": "Surge Protector",
-      "description": "8-outlet surge protector with USB ports",
-      "price": 29.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-038",
-      "name": "WiFi Extender",
-      "description": "Wireless WiFi range extender with dual bands",
-      "price": 79.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-039",
-      "name": "Smart Plug",
-      "description": "WiFi smart plug with voice control",
-      "price": 24.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-040",
-      "name": "Security Camera",
-      "description": "Wireless security camera with night vision",
-      "price": 89.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-041",
-      "name": "Smart Doorbell",
-      "description": "Video doorbell with motion detection",
-      "price": 199.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-042",
-      "name": "Smart Thermostat",
-      "description": "WiFi smart thermostat with app control",
-      "price": 249.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-043",
-      "name": "Smart Light Bulb",
-      "description": "RGB smart light bulb with voice control",
-      "price": 19.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-044",
-      "name": "Air Purifier",
-      "description": "HEPA air purifier with smart sensors",
-      "price": 299.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-045",
-      "name": "Robot Vacuum",
-      "description": "Smart robot vacuum with mapping technology",
-      "price": 399.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-046",
-      "name": "Smart Lock",
-      "description": "WiFi smart door lock with keypad",
-      "price": 199.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-047",
-      "name": "Smart Speaker",
-      "description": "Voice-controlled smart speaker with assistant",
-      "price": 99.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-048",
-      "name": "Smart Display",
-      "description": "10-inch smart display with video calling",
-      "price": 249.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-049",
-      "name": "Smart Scale",
-      "description": "WiFi smart scale with body composition analysis",
-      "price": 149.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    },
-    {
-      "id": "prod-1-050",
-      "name": "Smart Mirror",
-      "description": "LED smart mirror with Bluetooth connectivity",
-      "price": 199.99,
-      "currency": "USD",
-      "availability": true,
-      "lastUpdated": "2025-09-30T10:30:00Z"
-    }
-  ]
+  "metadata": {
+    "provider": "TechStore API",
+    "version": "2.0",
+    "timestamp": "2025-09-30T10:30:00Z"
+  },
+  "catalog": {
+    "items": [
+      {
+        "product_id": "prod-1-001",
+        "product_name": "Gaming Laptop Pro Pro",
+        "product_desc": "High-performance gaming laptop with RTX 4080",
+        "pricing": {
+          "amount": 2550.49,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 29
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-002",
+        "product_name": "Wireless Gaming Mouse Elite",
+        "product_desc": "Ergonomic wireless mouse for gaming",
+        "pricing": {
+          "amount": 97.32,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 77
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-003",
+        "product_name": "Mechanical Keyboard Premium",
+        "product_desc": "RGB mechanical keyboard with Cherry MX switches",
+        "pricing": {
+          "amount": 155.72,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 49
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-004",
+        "product_name": "4K Monitor 32\" Ultra",
+        "product_desc": "Ultra HD gaming monitor with 144Hz refresh rate",
+        "pricing": {
+          "amount": 591.15,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 41
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-005",
+        "product_name": "Gaming Chair",
+        "product_desc": "Ergonomic gaming chair with lumbar support",
+        "pricing": {
+          "amount": 364.22,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 93
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-006",
+        "product_name": "USB-C Hub Pro",
+        "product_desc": "7-in-1 USB-C hub with HDMI and Ethernet",
+        "pricing": {
+          "amount": 45.56,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 11
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-007",
+        "product_name": "Webcam HD Elite",
+        "product_desc": "1080p HD webcam with auto-focus",
+        "pricing": {
+          "amount": 79.46,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 40
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-008",
+        "product_name": "Bluetooth Headset Premium",
+        "product_desc": "Noise-cancelling Bluetooth headset",
+        "pricing": {
+          "amount": 126.19,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 78
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-009",
+        "product_name": "External SSD 1TB Ultra",
+        "product_desc": "Portable external SSD with 1TB storage",
+        "pricing": {
+          "amount": 138.07,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 41
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-010",
+        "product_name": "Graphics Tablet",
+        "product_desc": "Digital drawing tablet for artists",
+        "pricing": {
+          "amount": 205.56,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 80
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-011",
+        "product_name": "Smart Watch Pro",
+        "product_desc": "Fitness smart watch with heart rate monitor",
+        "pricing": {
+          "amount": 264.42,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 45
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-012",
+        "product_name": "Wireless Earbuds Elite",
+        "product_desc": "True wireless earbuds with charging case",
+        "pricing": {
+          "amount": 90.55,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 13
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-013",
+        "product_name": "USB Microphone Premium",
+        "product_desc": "Professional USB condenser microphone",
+        "pricing": {
+          "amount": 124.21,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 11
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-014",
+        "product_name": "Laptop Stand Ultra",
+        "product_desc": "Adjustable aluminum laptop stand",
+        "pricing": {
+          "amount": 43.7,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 59
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-015",
+        "product_name": "Portable Charger",
+        "product_desc": "20000mAh portable power bank",
+        "pricing": {
+          "amount": 41.54,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 25
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-016",
+        "product_name": "RGB Mouse Pad Pro",
+        "product_desc": "Extended RGB gaming mouse pad",
+        "pricing": {
+          "amount": 34.95,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 68
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-017",
+        "product_name": "Cable Management Elite",
+        "product_desc": "Cable management kit for desk setup",
+        "pricing": {
+          "amount": 20.92,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 32
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-018",
+        "product_name": "Phone Holder Premium",
+        "product_desc": "Adjustable phone holder with wireless charging",
+        "pricing": {
+          "amount": 28.88,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 7
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-019",
+        "product_name": "LED Desk Lamp Ultra",
+        "product_desc": "Smart LED desk lamp with USB charging",
+        "pricing": {
+          "amount": 53.23,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 75
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-020",
+        "product_name": "Bluetooth Speaker",
+        "product_desc": "Portable Bluetooth speaker with bass boost",
+        "pricing": {
+          "amount": 70.77,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 39
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-021",
+        "product_name": "Gaming Laptop Pro Pro",
+        "product_desc": "High-performance gaming laptop with RTX 4080",
+        "pricing": {
+          "amount": 2528.0,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 68
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-022",
+        "product_name": "Wireless Gaming Mouse Elite",
+        "product_desc": "Ergonomic wireless mouse for gaming",
+        "pricing": {
+          "amount": 88.76,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 93
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-023",
+        "product_name": "Mechanical Keyboard Premium",
+        "product_desc": "RGB mechanical keyboard with Cherry MX switches",
+        "pricing": {
+          "amount": 161.89,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 55
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-024",
+        "product_name": "4K Monitor 32\" Ultra",
+        "product_desc": "Ultra HD gaming monitor with 144Hz refresh rate",
+        "pricing": {
+          "amount": 654.06,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 38
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-025",
+        "product_name": "Gaming Chair",
+        "product_desc": "Ergonomic gaming chair with lumbar support",
+        "pricing": {
+          "amount": 377.99,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 44
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-026",
+        "product_name": "USB-C Hub Pro",
+        "product_desc": "7-in-1 USB-C hub with HDMI and Ethernet",
+        "pricing": {
+          "amount": 45.4,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 49
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-027",
+        "product_name": "Webcam HD Elite",
+        "product_desc": "1080p HD webcam with auto-focus",
+        "pricing": {
+          "amount": 87.01,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 15
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-028",
+        "product_name": "Bluetooth Headset Premium",
+        "product_desc": "Noise-cancelling Bluetooth headset",
+        "pricing": {
+          "amount": 129.61,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 83
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-029",
+        "product_name": "External SSD 1TB Ultra",
+        "product_desc": "Portable external SSD with 1TB storage",
+        "pricing": {
+          "amount": 160.01,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 53
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-030",
+        "product_name": "Graphics Tablet",
+        "product_desc": "Digital drawing tablet for artists",
+        "pricing": {
+          "amount": 185.21,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 42
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-031",
+        "product_name": "Smart Watch Pro",
+        "product_desc": "Fitness smart watch with heart rate monitor",
+        "pricing": {
+          "amount": 230.51,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 55
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-032",
+        "product_name": "Wireless Earbuds Elite",
+        "product_desc": "True wireless earbuds with charging case",
+        "pricing": {
+          "amount": 109.03,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 31
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-033",
+        "product_name": "USB Microphone Premium",
+        "product_desc": "Professional USB condenser microphone",
+        "pricing": {
+          "amount": 124.28,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 20
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-034",
+        "product_name": "Laptop Stand Ultra",
+        "product_desc": "Adjustable aluminum laptop stand",
+        "pricing": {
+          "amount": 39.15,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 13
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-035",
+        "product_name": "Portable Charger",
+        "product_desc": "20000mAh portable power bank",
+        "pricing": {
+          "amount": 40.75,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 95
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-036",
+        "product_name": "RGB Mouse Pad Pro",
+        "product_desc": "Extended RGB gaming mouse pad",
+        "pricing": {
+          "amount": 35.87,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 45
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-037",
+        "product_name": "Cable Management Elite",
+        "product_desc": "Cable management kit for desk setup",
+        "pricing": {
+          "amount": 21.58,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 15
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-038",
+        "product_name": "Phone Holder Premium",
+        "product_desc": "Adjustable phone holder with wireless charging",
+        "pricing": {
+          "amount": 30.08,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 79
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-039",
+        "product_name": "LED Desk Lamp Ultra",
+        "product_desc": "Smart LED desk lamp with USB charging",
+        "pricing": {
+          "amount": 50.83,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 12
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-040",
+        "product_name": "Bluetooth Speaker",
+        "product_desc": "Portable Bluetooth speaker with bass boost",
+        "pricing": {
+          "amount": 70.46,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 26
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-041",
+        "product_name": "Gaming Laptop Pro Pro",
+        "product_desc": "High-performance gaming laptop with RTX 4080",
+        "pricing": {
+          "amount": 2421.68,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 36
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-042",
+        "product_name": "Wireless Gaming Mouse Elite",
+        "product_desc": "Ergonomic wireless mouse for gaming",
+        "pricing": {
+          "amount": 89.0,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 98
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-043",
+        "product_name": "Mechanical Keyboard Premium",
+        "product_desc": "RGB mechanical keyboard with Cherry MX switches",
+        "pricing": {
+          "amount": 160.55,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 42
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-044",
+        "product_name": "4K Monitor 32\" Ultra",
+        "product_desc": "Ultra HD gaming monitor with 144Hz refresh rate",
+        "pricing": {
+          "amount": 575.44,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 81
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-045",
+        "product_name": "Gaming Chair",
+        "product_desc": "Ergonomic gaming chair with lumbar support",
+        "pricing": {
+          "amount": 325.22,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 77
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-046",
+        "product_name": "USB-C Hub Pro",
+        "product_desc": "7-in-1 USB-C hub with HDMI and Ethernet",
+        "pricing": {
+          "amount": 46.28,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 74
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-047",
+        "product_name": "Webcam HD Elite",
+        "product_desc": "1080p HD webcam with auto-focus",
+        "pricing": {
+          "amount": 73.71,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 63
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-048",
+        "product_name": "Bluetooth Headset Premium",
+        "product_desc": "Noise-cancelling Bluetooth headset",
+        "pricing": {
+          "amount": 126.68,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 24
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-049",
+        "product_name": "External SSD 1TB Ultra",
+        "product_desc": "Portable external SSD with 1TB storage",
+        "pricing": {
+          "amount": 159.14,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": true,
+          "quantity": 92
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      },
+      {
+        "product_id": "prod-1-050",
+        "product_name": "Graphics Tablet",
+        "product_desc": "Digital drawing tablet for artists",
+        "pricing": {
+          "amount": 214.54,
+          "currency_code": "USD"
+        },
+        "stock": {
+          "in_stock": false,
+          "quantity": 78
+        },
+        "last_modified": "2025-09-30T10:30:00Z"
+      }
+    ]
+  }
 }

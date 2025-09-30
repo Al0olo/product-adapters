@@ -18,9 +18,12 @@ export class ProvidersService {
 
   async getProviderUrls(): Promise<Record<string, string>> {
     return {
-      provider1: this.configService.get<string>('providers.provider1.url') || '',
-      provider2: this.configService.get<string>('providers.provider2.url') || '',
-      provider3: this.configService.get<string>('providers.provider3.url') || '',
+      provider1:
+        this.configService.get<string>('providers.provider1.url') || '',
+      provider2:
+        this.configService.get<string>('providers.provider2.url') || '',
+      provider3:
+        this.configService.get<string>('providers.provider3.url') || '',
     };
   }
 
@@ -30,8 +33,9 @@ export class ProvidersService {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-      const data = await response.json() as { products?: unknown } | unknown;
-      return (data as { products?: unknown }).products || data;
+      // Return raw data - let the adapter handle normalization
+      const data = (await response.json()) as unknown;
+      return data;
     } catch (error) {
       console.error(`Error fetching from provider ${providerId}:`, error);
       throw error;

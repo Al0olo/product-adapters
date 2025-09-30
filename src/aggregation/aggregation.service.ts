@@ -3,6 +3,10 @@ import { ConfigService } from '@nestjs/config';
 import { PrismaService } from '../common/database/prisma.service';
 import { ProvidersService } from '../providers/providers.service';
 import { Decimal } from '@prisma/client/runtime/library';
+import {
+  normalizeProviderData,
+  type NormalizedProduct,
+} from './provider-adapters';
 
 @Injectable()
 export class AggregationService {
@@ -18,12 +22,16 @@ export class AggregationService {
 
     for (const [providerId, url] of Object.entries(providerUrls)) {
       try {
-        const products = await this.providersService.fetchFromProvider(
+        const rawData = await this.providersService.fetchFromProvider(
           url,
           providerId,
         );
+
+        // Use provider-specific adapter to normalize data
+        const normalizedProducts = normalizeProviderData(providerId, rawData);
+
         const processed = await this.processProviderProducts(
-          Array.isArray(products) ? products : [],
+          normalizedProducts,
           providerId,
         );
         results.push({ providerId, success: true, count: processed.length });
@@ -41,41 +49,31 @@ export class AggregationService {
   }
 
   private async processProviderProducts(
-    products: unknown[],
+    products: NormalizedProduct[],
     providerId: string,
   ) {
     const processed = [];
 
     for (const product of products) {
       try {
-        const productObj = product as {
-          id: string;
-          name: string;
-          description?: string;
-          price: number;
-          currency: string;
-          availability: boolean;
-          lastUpdated: string;
-        };
-
         const existingProduct = await this.prisma.product.findUnique({
           where: {
             externalId_providerId: {
-              externalId: productObj.id,
+              externalId: product.id,
               providerId,
             },
           },
         });
 
         const productData = {
-          externalId: productObj.id,
+          externalId: product.id,
           providerId,
-          name: productObj.name,
-          description: productObj.description,
-          price: productObj.price,
-          currency: productObj.currency,
-          availability: productObj.availability,
-          lastUpdated: new Date(productObj.lastUpdated),
+          name: product.name,
+          description: product.description,
+          price: product.price,
+          currency: product.currency,
+          availability: product.availability,
+          lastUpdated: new Date(product.lastUpdated),
         };
 
         if (existingProduct) {
