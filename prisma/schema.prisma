@@ -1,0 +1,54 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id              String           @id @default(uuid())
+  externalId      String
+  providerId      String
+  name            String
+  description     String?
+  price           Decimal          @db.Decimal(10, 2)
+  currency        String
+  availability    Boolean
+  lastUpdated     DateTime
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  isStale         Boolean          @default(false)
+  priceHistory    PriceHistory[]
+  
+  @@unique([externalId, providerId])
+  @@index([providerId, availability])
+  @@index([price, currency])
+  @@index([lastUpdated])
+}
+
+model PriceHistory {
+  id          String   @id @default(uuid())
+  productId   String
+  product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  oldPrice    Decimal  @db.Decimal(10, 2)
+  newPrice    Decimal  @db.Decimal(10, 2)
+  currency    String
+  changedAt   DateTime @default(now())
+  
+  @@index([productId, changedAt])
+}
+
+model Provider {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  url         String
+  isActive    Boolean  @default(true)
+  lastFetch   DateTime?
+  failureCount Int     @default(0)
+  createdAt   DateTime @default(now())
+}
