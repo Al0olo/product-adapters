@@ -17,9 +17,9 @@ model Product {
   name            String
   description     String?
   price           Decimal          @db.Decimal(10, 2)
-  currency        String
-  availability    Boolean
-  lastUpdated     DateTime
+  currency        String           @default("USD")
+  availability    Boolean          @default(true)
+  lastUpdated     DateTime         @default(now())
   createdAt       DateTime         @default(now())
   updatedAt       DateTime         @updatedAt
   isStale         Boolean          @default(false)
@@ -29,26 +29,38 @@ model Product {
   @@index([providerId, availability])
   @@index([price, currency])
   @@index([lastUpdated])
+  @@index([isStale])
+  @@index([name])
 }
 
 model PriceHistory {
-  id          String   @id @default(uuid())
-  productId   String
-  product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
-  oldPrice    Decimal  @db.Decimal(10, 2)
-  newPrice    Decimal  @db.Decimal(10, 2)
-  currency    String
-  changedAt   DateTime @default(now())
+  id              String   @id @default(uuid())
+  productId       String
+  product         Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  oldPrice        Decimal  @db.Decimal(10, 2)
+  newPrice        Decimal  @db.Decimal(10, 2)
+  oldAvailability Boolean?
+  newAvailability Boolean?
+  currency        String
+  changedAt       DateTime @default(now())
+  changeType      String
   
-  @@index([productId, changedAt])
+  @@index([productId, changedAt(sort: Desc)])
+  @@index([changedAt(sort: Desc)])
 }
 
 model Provider {
-  id          String   @id @default(uuid())
-  name        String   @unique
-  url         String
-  isActive    Boolean  @default(true)
-  lastFetch   DateTime?
-  failureCount Int     @default(0)
-  createdAt   DateTime @default(now())
+  id              String    @id @default(uuid())
+  name            String    @unique
+  url             String
+  isActive        Boolean   @default(true)
+  lastFetchAt     DateTime?
+  lastSuccessAt   DateTime?
+  failureCount    Int       @default(0)
+  totalRequests   Int       @default(0)
+  successfulReqs  Int       @default(0)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  @@index([isActive, lastFetchAt])
 }
