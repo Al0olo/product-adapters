@@ -1,98 +1,157 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# Product Price Aggregator API
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+A production-ready Product Price Aggregation service built with NestJS, Prisma, and PostgreSQL.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Features
 
-## Description
+- **Real-time Price Aggregation**: Fetches product data from multiple providers
+- **Price History Tracking**: Maintains complete price change history
+- **Server-Sent Events**: Real-time updates via SSE
+- **Circuit Breaker Pattern**: Fault tolerance for external APIs
+- **Comprehensive Monitoring**: Health checks and metrics
+- **Type Safety**: Full TypeScript support with strict typing
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Quick Start
 
-## Project setup
+### One-Command Setup
 
 ```bash
-$ npm install
+# Clone and start everything
+git clone <repository-url>
+cd product-price-aggregator
+docker-compose up -d
 ```
 
-## Compile and run the project
+This single command will:
+- Start PostgreSQL database
+- Install dependencies
+- Generate Prisma client
+- Push database schema
+- Start 3 mock provider APIs
+- Start the main application
+
+### Access Points
+
+- **API**: http://localhost:3000
+- **Swagger Documentation**: http://localhost:3000/api
+- **Provider 1**: http://localhost:3001
+- **Provider 2**: http://localhost:3002
+- **Provider 3**: http://localhost:3003
+
+## API Endpoints
+
+### Products
+- `GET /products` - List all products
+- `GET /products/:id` - Get product by ID
+- `GET /products/search?q=query` - Search products
+
+### Providers
+- `GET /providers` - List all providers
+- `GET /providers/:id` - Get provider by ID
+
+### Stream
+- `GET /stream/products` - Server-Sent Events stream for real-time updates
+
+### Health
+- `GET /health` - Application health check
+- `GET /ready` - Readiness probe
+
+## Development
+
+### Prerequisites
+- Node.js 18+
+- Docker & Docker Compose
+- PostgreSQL (or use Docker)
+
+### Local Development
 
 ```bash
-# development
-$ npm run start
+# Install dependencies
+npm install
 
-# watch mode
-$ npm run start:dev
+# Start database
+docker-compose up -d postgres
 
-# production mode
-$ npm run start:prod
+# Generate Prisma client
+npx prisma generate
+
+# Push database schema
+npx prisma db push
+
+# Start development server
+npm run start:dev
 ```
 
-## Run tests
+### Environment Variables
+
+Create a `.env` file based on `.env.example`:
+
+```env
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/priceaggregator?schema=public"
+PORT=3000
+PROVIDER_1_URL=http://localhost:3001
+PROVIDER_2_URL=http://localhost:3002
+PROVIDER_3_URL=http://localhost:3003
+```
+
+## Architecture
+
+### Services
+- **Products Service**: Manages product data and search
+- **Providers Service**: Handles external API communication
+- **Aggregation Service**: Orchestrates data collection
+- **Stream Service**: Provides real-time updates
+
+### Database Schema
+- **Products**: Core product information
+- **PriceHistory**: Complete price change tracking
+- **Providers**: Provider configuration and metrics
+
+### Key Features
+- **Circuit Breaker**: Prevents cascade failures
+- **Retry Logic**: Exponential backoff for transient failures
+- **Batch Processing**: Efficient data handling
+- **Real-time Updates**: SSE for live data streaming
+
+## Testing
 
 ```bash
-# unit tests
-$ npm run test
+# Unit tests
+npm run test
 
-# e2e tests
-$ npm run test:e2e
+# E2E tests
+npm run test:e2e
 
-# test coverage
-$ npm run test:cov
+# Test coverage
+npm run test:cov
 ```
 
-## Deployment
-
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
-
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+## Production Deployment
 
 ```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
+# Build for production
+npm run build
+
+# Start production server
+npm run start:prod
 ```
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+## Monitoring
 
-## Resources
+The application includes comprehensive monitoring:
+- Health checks at `/health` and `/ready`
+- Structured logging with correlation IDs
+- Performance metrics
+- Error tracking and alerting
 
-Check out a few resources that may come in handy when working with NestJS:
+## Contributing
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
 
 ## License
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+MIT License - see LICENSE file for details.
