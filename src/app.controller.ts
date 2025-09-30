@@ -1,7 +1,8 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Version } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { AppService } from './app.service';
 import { PrismaService } from './common/database/prisma.service';
+import { HealthV1Dto, ReadyV1Dto } from './common/dto/api.dto';
 
 @ApiTags('health')
 @Controller()
@@ -12,6 +13,7 @@ export class AppController {
   ) {}
 
   @Get()
+  @Version('1')
   @ApiOperation({ summary: 'Get hello message' })
   @ApiResponse({ status: 200, description: 'Hello message' })
   getHello(): string {
@@ -19,10 +21,19 @@ export class AppController {
   }
 
   @Get('health')
+  @Version('1')
   @ApiOperation({ summary: 'Health check endpoint' })
-  @ApiResponse({ status: 200, description: 'Service is healthy' })
-  @ApiResponse({ status: 503, description: 'Service is unhealthy' })
-  async getHealth() {
+  @ApiResponse({
+    status: 200,
+    description: 'Service is healthy',
+    type: HealthV1Dto,
+  })
+  @ApiResponse({
+    status: 503,
+    description: 'Service is unhealthy',
+    type: HealthV1Dto,
+  })
+  async getHealth(): Promise<HealthV1Dto> {
     try {
       // Check database connection
       await this.prisma.$queryRaw`SELECT 1`;
@@ -45,10 +56,19 @@ export class AppController {
   }
 
   @Get('ready')
+  @Version('1')
   @ApiOperation({ summary: 'Readiness check endpoint' })
-  @ApiResponse({ status: 200, description: 'Service is ready' })
-  @ApiResponse({ status: 503, description: 'Service is not ready' })
-  async getReady() {
+  @ApiResponse({
+    status: 200,
+    description: 'Service is ready',
+    type: ReadyV1Dto,
+  })
+  @ApiResponse({
+    status: 503,
+    description: 'Service is not ready',
+    type: ReadyV1Dto,
+  })
+  async getReady(): Promise<ReadyV1Dto> {
     try {
       // Check if all critical services are ready
       await this.prisma.$queryRaw`SELECT 1`;

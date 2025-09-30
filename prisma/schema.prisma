@@ -31,6 +31,8 @@ model Product {
   @@index([lastUpdated])
   @@index([isStale])
   @@index([name])
+  @@index([createdAt])
+  @@index([lastUpdated, createdAt])
 }
 
 model PriceHistory {

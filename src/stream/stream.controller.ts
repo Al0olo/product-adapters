@@ -1,4 +1,4 @@
-import { Controller, Get, Res, Sse } from '@nestjs/common';
+import { Controller, Get, Res, Sse, Version } from '@nestjs/common';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
 import type { Response } from 'express';
 import { Observable, interval, map } from 'rxjs';
@@ -11,6 +11,7 @@ export class StreamController {
 
   @Get('products')
   @Sse('products')
+  @Version('1')
   @ApiOperation({ summary: 'Server-Sent Events stream for product updates' })
   streamProducts(@Res() res: Response): Observable<{ data: string }> {
     res.setHeader('Content-Type', 'text/event-stream');
