@@ -1,6 +1,5 @@
 # Product Price Aggregator API
 
-**Technical Assignment - Senior Backend Software Engineer**
 
 > **Note**: This is a technical assignment solution demonstrating backend development skills with NestJS, Prisma, and PostgreSQL. The focus is on showcasing architecture, code quality, and best practices within the given timeframe (3-6 hours).
 
@@ -615,14 +614,6 @@ curl http://localhost:3000/v1/health
 
 ---
 
-## 📧 Submission Details
-
-**Repository**: Private GitHub repository  
-**Access Granted To**:
-- alhasan.nasiry@digitalzone.app
-- suhaib@digitalzone.app
-- khairy.mohamed@digitalzone.app
-
 **Deliverables**:
 ✅ Complete source code  
 ✅ Prisma schema and migrations  
@@ -637,10 +628,5 @@ curl http://localhost:3000/v1/health
 MIT License - This is a technical assignment solution.
 
 ---
-
-## 🙏 Thank You
-
-Thank you for reviewing this assignment. I'm looking forward to discussing the implementation, architecture decisions, and potential improvements in the interview.
-
 **Time Spent**: ~4-5 hours  
 **Focus Areas**: Clean architecture, type safety, database optimization, and comprehensive documentation.
