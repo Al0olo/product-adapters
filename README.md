@@ -1,16 +1,4 @@
 # Product Price Aggregator API
-
-
-> **Note**: This is a technical assignment solution demonstrating backend development skills with NestJS, Prisma, and PostgreSQL. The focus is on showcasing architecture, code quality, and best practices within the given timeframe (3-6 hours).
-
-## 📋 Assignment Overview
-
-**Objective**: Develop a Product Price Aggregation API that collects, processes, and serves pricing and availability data from multiple external APIs.
-
-**Time Allocated**: ~4 hours (3-6 hours range)  
-**Submission Deadline**: 24 hours from receipt  
-**Stack**: NestJS (TypeScript), Prisma, PostgreSQL, Docker
-
 ---
 
 ## 🚀 Quick Start (One Command)
